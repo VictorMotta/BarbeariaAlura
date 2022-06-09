@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: #BBBBBB;
     padding: 20px 0;
@@ -43,4 +47,21 @@ footer {
     color: #fff;
     font-size: 13px;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa {
+        width: auto;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 939px) {
+    .caixa {
+        width: auto;
+    }
+    nav ul {
+        margin: 0 auto;
+    }
 }
